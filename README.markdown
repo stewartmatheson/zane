@@ -1,6 +1,6 @@
 # Zane
 
-PhantomJS wrapped in Celluloid. Got a lot of pages to scrape? Want to light up those cores? If so then let Billy work his magic.
+PhantomJS wrapped in Celluloid. Got a lot of pages to scrape? Want to light up those cores? If so then let Billy work his magic. PhantomJS is a great tool for scraping the web. The only issue is that it does not scale all that well. From what I can tell it's designed around a single threaded model that allows for blocking style requests. Zane creates an instance of PhantomJS for each core of the machine it's running allowing all instances of PhantomJS to be used at the same time. This will great increase though put of any scraper type appliactions that have a large back log of pages to scrape.
 
 ## Features
 
