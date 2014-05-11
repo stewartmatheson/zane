@@ -1,0 +1,28 @@
+= zane
+
+* {Homepage}[https://github.com/stewartmatheson/zane#readme]
+* {Issues}[https://github.com/stewartmatheson/zane/issues]
+* {Documentation}[http://rubydoc.info/gems/zane/frames]
+* {Email}[mailto:stew at rtmatheson.com]
+
+== Description
+
+TODO: Description
+
+== Features
+
+== Examples
+
+  require 'zane'
+
+== Requirements
+
+== Install
+
+  $ gem install zane
+
+== Copyright
+
+Copyright (c) 2014 Stewart Matheson
+
+See LICENSE.txt for details.
