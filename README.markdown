@@ -1,21 +1,22 @@
-= Zane
+# Zane
 
-* {Homepage}[https://github.com/stewartmatheson/zane#readme]
+* '''Homepage''' [https://github.com/stewartmatheson/zane#readme]
 * {Issues}[https://github.com/stewartmatheson/zane/issues]
 * {Documentation}[http://rubydoc.info/gems/zane/frames]
 * {Email}[mailto:stew at rtmatheson.com]
 
-== Description
+## Description
 
 Zane : PhantomJS wrapped in Celluloid. Got a lot of pages to scrape? Want to light up those cores? If so then let Billy work his magic.
 
-== Features
+## Features
 
  * Core to PhantomJS mapping
  * Simple call back system for requests
 
-== Examples
+## Examples
 
+```ruby
   require 'zane'
 
   # Start zane will bring up one PhantomJS instance for each core on your machine
@@ -27,15 +28,16 @@ Zane : PhantomJS wrapped in Celluloid. Got a lot of pages to scrape? Want to lig
     puts page.title
     puts page.html
   end
+```
 
-== Requirements
+## Requirements
  * Celluloid
 
-== Install
+## Install
 
   $ gem install zane
 
-== Copyright
+## Copyright
 
 Copyright (c) 2014 Stewart Matheson
 
